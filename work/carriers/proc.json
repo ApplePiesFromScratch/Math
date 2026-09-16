@@ -1,0 +1,18 @@
+{
+  "name": "PROC-rate",
+  "version": "0.3",
+  "V": "Q-pairs (v,r)",
+  "G": "Leibniz mix; rate(P,G)=P.r/G.r; isolation is an argument",
+  "theta": "G.r!=0 to form a rate; B.v!=0 to divide; no Inf inhabitant",
+  "forced_on_cut": [
+    "rate(x*x,x)=2x on declared grid × seeds (gauge)",
+    "rate((0,6),(0,1))=6"
+  ],
+  "fails": [
+    "rate through r=0",
+    "float input (LeavesV)",
+    "sin/sqrt on this V"
+  ],
+  "falsifier": "exhibit v,k on the grid with rate depending on seed",
+  "notes": "STD-dual is another presentation of the same mix: seed locked, r collapsed."
+}

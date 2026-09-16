@@ -1,0 +1,17 @@
+{
+  "name": "K3",
+  "version": "0.3",
+  "V": "{0,1/2,1}",
+  "G": "NOT=1-v; AND=min; OR=max",
+  "theta": "designated {1}",
+  "forced_on_cut": [
+    "AND-idempotent",
+    "1/2 taints AND below 1 and OR above 0"
+  ],
+  "fails": [
+    "LEM: OR(1/2,NOT 1/2)=1/2 not designated",
+    "LNC-value: AND(1/2,NOT 1/2)=1/2 != 0"
+  ],
+  "falsifier": "OR(1/2,1/2)=1/2 is the LEM counterexample on this cut",
+  "notes": "Same V as L3. Different G. Grow-V rule already applied: they split."
+}

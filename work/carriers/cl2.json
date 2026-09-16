@@ -1,0 +1,17 @@
+{
+  "name": "CL2",
+  "version": "0.3",
+  "V": "{0,1}",
+  "G": "NOT=1-v; AND=min; OR=max (agree with product on this V)",
+  "theta": "designated {1}",
+  "forced_on_cut": [
+    "LEM: OR(v,NOT v)=1 for all v in V",
+    "LNC-value: AND(v,NOT v)=0 for all v in V"
+  ],
+  "fails": [
+    "no v with NOT(v)=v (Liar has no home)",
+    "v=1/2 is not in V"
+  ],
+  "falsifier": "exhibit v in {0,1} where OR(v,NOT v)!=1",
+  "notes": "AND-min and AND-prod coincide here. Grow V before calling them one G."
+}

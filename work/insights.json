@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "Mapped insights — V, G, θ presentations",
+    "stance": "A name introduces structure. It does not uncover essence. This file is a map.",
+    "knobs": ["V", "G", "theta"],
+    "constant": "P / G → Q"
+  },
+  "rules": [
+    "Nouns compress; compression is not ontology.",
+    "A name that does not change V, G, or θ is a comment.",
+    "Same word on two knobs is two operators.",
+    "Agreement on a small V is not portable; grow V to distinguish.",
+    "If an op leaves V that is θ, not a new inhabitant.",
+    "Do not add an inhabitant until you name the slot it corrects.",
+    "Claims need a falsifier. Tier is computed.",
+    "FORCED-on-cut does not lift to an unlistable alphabet.",
+    "isolate is unpriced. Results sit downstream of a paid cut.",
+    "Infinity and extra circles are the same promotion: θ dressed as V.",
+    "Frame ≠ tic. View must not write V_game."
+  ],
+  "insights": [
+    {
+      "id": "knobs-three",
+      "domain": "carrier",
+      "claim": "Every formal system here is a choice of V, G, θ. P/G→Q is constant.",
+      "receipt": "85 library carriers + project presentations parse as those three knobs."
+    },
+    {
+      "id": "name-introduces-structure",
+      "domain": "naming",
+      "claim": "A name installs a cut (connectives, seed, θ). It does not report essence.",
+      "receipt": "G1 and Tycho-circles printed identical errors. 'Tycho' was a comment."
+    },
+    {
+      "id": "presentation-not-algebra",
+      "domain": "logic",
+      "claim": "L3-strong vs L3-lattice: same V3, different G, LEM flips. Ask a presentation, not a bare algebra name.",
+      "receipt": "/PL L3 split; AND-min vs AND-luk vs AND-prod."
+    },
+    {
+      "id": "and-not-one-op",
+      "domain": "operators",
+      "claim": "AND is min, product, luk, absorb-u, tensor, Leibniz mix, tropical min. They coincide on {0,1}.",
+      "receipt": "operator_test.py: V2 agree, V3 product leaves (½·½=¼)."
+    },
+    {
+      "id": "derivative-not-one-op",
+      "domain": "calculus",
+      "claim": "Unary D, binary rate, dual ε, fd h, exterior d, covariant ∇, Itô are seven structures.",
+      "receipt": "cutad: rate(x²,x)=6 gauge-invariant; D kills r; fd=6+h never equals 6 on listed h."
+    },
+    {
+      "id": "rate-is-ratio",
+      "domain": "calculus",
+      "claim": "rate(P,G)=P.r/G.r. Isolation is an argument. No independent variable with its own life.",
+      "receipt": "seeds 1,2,1/2,-3 all give rate=6 on x² at 3."
+    },
+    {
+      "id": "zero-over-zero-channels",
+      "domain": "calculus",
+      "claim": "Value slots 0/0 refuse quot. Live channels still have a rate.",
+      "receipt": "rate((0,6),(0,1))=6; quot fires Theta."
+    },
+    {
+      "id": "epsilon-sq-mix",
+      "domain": "calculus",
+      "claim": "ε²=0 on a pure increment is mix of two empty magnitudes. A 2-jet slot keeps r2=2.",
+      "receipt": "isolate(0,1)*isolate(0,1) → (0,0); different V keeps the square."
+    },
+    {
+      "id": "fd-reconstructs",
+      "domain": "calculus",
+      "claim": "Finite difference reconstructs a channel the presentation discarded.",
+      "receipt": "cutad vs-fd: exact 6, fd 6+h."
+    },
+    {
+      "id": "certificate",
+      "domain": "cutad",
+      "claim": "A published number can carry statement, cut, discharged/scope, tier, falsifier.",
+      "receipt": "certify(z**3+2z) at 3 → 29, 32/32, FORCED-on-cut."
+    },
+    {
+      "id": "infinite-V-ram",
+      "domain": "engineering",
+      "claim": "Putting ∞ in V makes enumeration unpaid and memory unbounded. Finite V plus θ is the alternative.",
+      "receipt": "finite vs infinite enumeration notes; refuse ∞ as inhabitant."
+    },
+    {
+      "id": "accuracy-is-channel",
+      "domain": "sky",
+      "claim": "Accuracy is cheap when the entity lands on the channel that left V. Headcount is not parsimony.",
+      "receipt": "Mars e on rate(M,S): 25°→3.8°. Equant on Earth-seed made error worse."
+    },
+    {
+      "id": "g1-equals-tycho-circles",
+      "domain": "sky",
+      "claim": "Renaming the center without changing G reprints the same table.",
+      "receipt": "geocentric_machine G1 vs G-tycho-circles identical lon/rad."
+    },
+    {
+      "id": "heliocentric-is-binary-rate",
+      "domain": "sky",
+      "claim": "Heliocentric kinematics is rate(Mars_geo, Sun_geo) of two already-paid geo channels.",
+      "receipt": "reconstructed a≈1.52, radial error 0.0019 vs unary-Earth 0.68."
+    },
+    {
+      "id": "epicycle-is-fourier",
+      "domain": "sky",
+      "claim": "The Copernican 2M epicycle is Fourier-by-hand of the equation of center. G_center names the angle warp; G_stretch names the radial warp.",
+      "receipt": "HELIO-epi rad_max 0.361 worse than circle 0.103; center+stretch lon 0.017° rad 0."
+    },
+    {
+      "id": "slots-not-interchangeable",
+      "domain": "sky",
+      "claim": "Center alone closes angle leaves radius; stretch alone closes radius leaves angle.",
+      "receipt": "heliocentric_machine REPLACE-center ANG / REPLACE-stretch RAD."
+    },
+    {
+      "id": "fourier-protection",
+      "domain": "sky",
+      "claim": "Angular-only V plus add-a-circle is complete on S¹. That carrier cannot fail. Refutation is growing V.",
+      "receipt": "G0 distance variation 0; G1 closes retrogrades and leaves V_rad."
+    },
+    {
+      "id": "reconstructions",
+      "domain": "operators",
+      "claim": "Epicycle, equant, h-halving, Riemann n→∞, L'Hôpital, ∞-as-point reconstruct discarded slots.",
+      "receipt": "OPERATOR_GUIDE §2.3 / operator_meta §8."
+    },
+    {
+      "id": "prescreen",
+      "domain": "theorems",
+      "claim": "Membership in V is not stability. Pre-screen values/ops/θ/quantifier before proving.",
+      "receipt": "LEM ADMIT CL2 REFUSE K3; 1/x at 0 REFUSE θ pole; MVT ∀ℝ DEFER."
+    },
+    {
+      "id": "physics-engines-presentations",
+      "domain": "physics",
+      "claim": "Engines are discrete Newton presentations. Integrator, contact, coordinates are G.",
+      "receipt": "PHYSICS_ENGINES.md table; Erez 2015 dt walls differ under the same Newton name."
+    },
+    {
+      "id": "maximal-vs-reduced",
+      "domain": "physics",
+      "claim": "Maximal coords reconstruct joints each step (drift). Reduced V has the joint as alphabet.",
+      "receipt": "phys2d pendulum max |len-L|=3.9e-4; reduced length cannot drift."
+    },
+    {
+      "id": "slop-is-theta",
+      "domain": "physics",
+      "claim": "Hard contact claims non-penetration as V and spends slop. Soft contact puts penetration in V.",
+      "receipt": "phys2d inelastic pen_max=0.058 with slop=0.01; energy 40→4.86."
+    },
+    {
+      "id": "smaller-dt-is-infinity",
+      "domain": "physics",
+      "claim": "Fixing explosion by unnamed smaller dt is putting ∞ in V. Name dt_max.",
+      "receipt": "phys2d / gamephys Theta on dt<=0 and dt>dt_max."
+    },
+    {
+      "id": "pbd-collapses-force",
+      "domain": "physics",
+      "claim": "PBD throws the force slot and reads velocity off projection — unary D of force.",
+      "receipt": "related-rates theorems REFUSE on PBD presentations."
+    },
+    {
+      "id": "mechanism-first-game",
+      "domain": "games",
+      "claim": "Pick the smallest V that holds the toy. A door is Slider1, not two bodies and a joint.",
+      "receipt": "gamephys 180 ticks 4ms; doomtic door q opens and player walks through."
+    },
+    {
+      "id": "video-game-carrier",
+      "domain": "games",
+      "claim": "The game is V_game + G_tic(V_game,V_in) + θ_game. Views and pipes are other carriers.",
+      "receipt": "Demo hash membership test. Frame ≠ tic."
+    },
+    {
+      "id": "view-must-not-write",
+      "domain": "games",
+      "claim": "G_draw writing V_game (GPU ragdoll as official pose) merges carriers. Demos die.",
+      "receipt": "GAME_CARRIER.md REFUSE list."
+    },
+    {
+      "id": "pong-is-sliders",
+      "domain": "games",
+      "claim": "1972 Pong is already mechanism-first: two sliders + a ball.",
+      "receipt": "games/pong.py same-AI hash match; miss awards a point."
+    },
+    {
+      "id": "breakout-leaves-V",
+      "domain": "games",
+      "claim": "Breakout adds bricks that leave V. Empty set is designated win.",
+      "receipt": "games/breakout.py brick count drops; hash stable."
+    },
+    {
+      "id": "pacman-wrong-plane",
+      "domain": "games",
+      "claim": "Pac-Man is the first popular title whose V is a graph, not a plane.",
+      "receipt": "GAME_HISTORY_PL.md path; replica not yet built."
+    },
+    {
+      "id": "doom-door-slider",
+      "domain": "games",
+      "claim": "id already put doors in V as sector height sliders. Do not upgrade them to PhysX.",
+      "receipt": "doomtic closed x=-36.6; after open x=77.7."
+    },
+    {
+      "id": "state-migration",
+      "domain": "runtime",
+      "claim": "When V changes mid-execution, state moves only by a registered μ: V_src → V_dst. No map is θ. Live channels do not drop into a scalar V.",
+      "receipt": "cutad/migrate.py V2→V3 embed; V3→QPAIR opens dead r; QPAIR live r → V3 Theta."
+    },
+    {
+      "id": "metageneration-on-ledger",
+      "domain": "runtime",
+      "claim": "Guards and reconfiguration are line items on the same ledger as STEP. They are not zero-cost sidecar events.",
+      "receipt": "silent step ledger=1; guard+reconfig+migrate+step=15/4; θ=2 Decohered on reconfig."
+    },
+    {
+      "id": "load-stipulated",
+      "domain": "PL",
+      "claim": "Load arithmetic on mix/reify is stipulated. Closure does not derive it.",
+      "receipt": "FORMAL.md non-claims; Suite CONDITIONAL when load is in the file."
+    }
+  ],
+  "operator_families": {
+    "AND": ["min", "product", "luk", "absorb-u", "tensor", "Leibniz-mix", "tropical-min"],
+    "derivative": ["unary-D", "rate(P,G)", "dual-eps", "fd-h", "exterior-d", "covariant", "Ito"],
+    "integral": ["accumulate-telescope", "Lebesgue-range", "Ito", "path-integral", "residue"],
+    "contact": ["LCP", "sequential-impulse", "soft-CCP", "PBD", "IPC", "hydroelastic"],
+    "time-G": ["explicit-Euler", "SI-Euler", "Verlet", "RK4", "implicit", "adaptive-RK"],
+    "game-mechanisms": ["Free2", "Hinge1", "Slider1", "graph-tile", "mobj+linedef"]
+  },
+  "prescreen_verdicts": [
+    {"theorem": "LEM", "CL2": "ADMIT", "K3": "REFUSE", "L3": "ADMIT"},
+    {"theorem": "AND-idempotent", "K3": "ADMIT", "L3": "REFUSE"},
+    {"theorem": "1/x at 0", "PROC": "REFUSE", "reason": "θ pole"},
+    {"theorem": "MVT on R", "PROC": "DEFER", "reason": "unlistable quantifier"},
+    {"theorem": "exact energy", "phys2d": "REFUSE"},
+    {"theorem": "exact non-penetration", "SI+slop": "REFUSE"},
+    {"theorem": "joint non-drift", "reduced": "ADMIT", "maximal": "REFUSE"}
+  ],
+  "games_path": [
+    {"id": "pong", "year": 1972, "V": "ball+2 sliders+score", "status": "built"},
+    {"id": "breakout", "year": 1976, "V": "ball+slider+bricks that leave", "status": "built"},
+    {"id": "invaders", "year": 1978, "V": "formation mechanism+shots", "status": "listed"},
+    {"id": "asteroids", "year": 1979, "V": "torus+heading", "status": "listed"},
+    {"id": "pacman", "year": 1980, "V": "graph", "status": "listed"},
+    {"id": "platformer", "year": 1981, "V": "Free2+gravity+jump", "status": "gamephys"},
+    {"id": "doom-class", "year": 1993, "V": "linedefs+sector sliders+mobj", "status": "doomtic"}
+  ],
+  "files": {
+    "cutad": ["cutad/reading.py", "cutad/certify.py", "cutad/prescreen.py", "cutad/phys2d.py", "cutad/gamephys.py", "cutad/doomtic.py", "cutad/games/pong.py", "cutad/games/breakout.py"],
+    "docs": ["docs/OPERATOR_GUIDE.md", "docs/PHYSICS_ENGINES.md", "docs/GAME_CARRIER.md", "docs/GAME_HISTORY_PL.md", "docs/DOOM_PL.md", "docs/DESIGN.md"],
+    "insights": "insights.json"
+  }
+}

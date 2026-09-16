@@ -1,0 +1,17 @@
+{
+  "name": "L3",
+  "version": "0.3",
+  "V": "{0,1/2,1}",
+  "G": "NOT=1-v; AND=max(0,a+b-1); OR=min(1,a+b)",
+  "theta": "designated {1}",
+  "forced_on_cut": [
+    "LEM under this G: OR(1/2,NOT 1/2)=1",
+    "AND(1/2,1/2)=0 — idempotence fails"
+  ],
+  "fails": [
+    "AND-idempotent",
+    "calling this K3: same V, different G, LEM flips"
+  ],
+  "falsifier": "exhibit v in V3 where OR(v,NOT v) is not designated",
+  "notes": "Presentation, not 'three-valued logic' as a place."
+}
